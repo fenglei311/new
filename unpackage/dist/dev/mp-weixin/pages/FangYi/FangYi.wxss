@@ -1,0 +1,43 @@
+
+.All{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+}
+.All  .content {
+	height: 90rpx;
+	line-height: 90rpx;
+	width: 100%;
+	text-align: center;
+	font-size: 32rpx;
+	font-family: Alibaba PuHuiTi;
+	color: #333;
+}
+.active {
+	position: relative;
+	color: #1F75FE;
+}
+.active::after {
+	content: "";
+	position: absolute;
+	width: 100rpx;
+	height: 4rpx;
+	background-color: #1F75FE;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+.content_bobao{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: flex-start;
+}
+.qq{
+	
+	width: 10%;
+	height: 30px;
+}
+

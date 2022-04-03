@@ -1,0 +1,97 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：
+		{
+			"path": "pages/index/index",
+			"style" : {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#D52525",
+				"enablePullDownRefresh": true
+			}
+		},
+        {
+            "path" : "pages/Video/Video",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频",
+				"navigationBarBackgroundColor":"#D52525",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/FangYi/FangYi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "防疫",
+				"navigationBarBackgroundColor":"#D52525",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/center",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor":"#D52525",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Login/Login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/index/content",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新闻详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#D52525",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#F8F8F8",
+		"selectedColor": "#0D00FF",
+		"borderStyle": "black",
+		"backgroundColor": "#D52525",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index-select.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/Video/Video",
+				"iconPath": "static/video.png",
+				"selectedIconPath": "static/video-select.png",
+				"text": "视频"
+			},
+			{
+				"pagePath": "pages/FangYi/FangYi",
+				"iconPath": "static/illprevent.png",
+				"selectedIconPath": "static/illprevent-select.png",
+				"text": "防疫"
+			},
+			{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-select.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}
